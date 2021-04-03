@@ -8,4 +8,9 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MicroServices_RabbitMQ.Domain.Core\MicroServices_RabbitMQ.Domain.Core.csproj" />
+    <ProjectReference Include="..\MicroServices_RabbitMQ.Infra.Bus\MicroServices_RabbitMQ.Infra.Bus.csproj" />
+  </ItemGroup>
+
 </Project>
